@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plaza Autoservicios</title>
+
+    <!-- link css-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <header>
+            <a href="index.html" class="logo">
+                <img src="images/logo-plaza.png" alt="logo-plaza" class="logo-plaza" />
+            </a>
+            <ul class="navbar">
+                <li> <a href="#home">Home</a></li>
+                <li> <a href="#home">Off Sale</a></li>
+                <li> <a href="#home">Productos</a></li>
+                <li> <a href="#home">Contactanos</a></li>
+            </ul>
+
+            <div class="header-icons">
+                <i class='bx bx-menu' id="menu-icon" alt="menu-icon"></i>
+                <i class='bx bx-search-alt-2' id="search-icon" alt="search-icon"></i>
+                <i class='bx bx-cart' id="cart-icon" alt="cart-icon"><span id="counter-cart">0</span></i>
+                <i class='bx bxs-user-circle' id="user-icon" alt="user-icon"></i>
+            </div>
+    </header>
+
+    <!--search box-->
+    <div class="search-box">
+        <input type="search" name="" id="" placeholder="Search here...">
+    </div>
+
+    <!-- Carrito-->
+    <div class="cart">
+
+        <div class="box">
+            <img src="images/product1.png" alt="">
+            <div class="text">
+                <h3>Lorem, ipsum </h3>
+                <span> S/.50</span>
+                <span>x1</span>
+            </div>
+            <i class='bx bxs-trash-alt'></i>
+        </div>
+
+        <div class="box">
+            <img src="images/product2.png" alt="">
+            <div class="text">
+                <h3>Lorem, ipsum </h3>
+                <span> S/.50</span>
+                <span>x1</span>
+            </div>
+            <i class='bx bxs-trash-alt'></i>
+        </div>
+
+        <h2>Total:S/.100.00</h2>
+        <a href="#" class="btn">Salir del carrito</a>
+
+
+    </div>
+
+    <main>
+        <section>
+            <h2> Productos más populares - Off Sale</h2>
+        </section>
+        <section>
+            <h2> Categoria de productos</h2>
+        </section>
+
+        <section>
+            <h2> Opiniones de clientes</h2>
+        </section>
+        <section>
+            <h2> Contactanos!</h2>
+        </section>
+        <section class="userRegister">
+            <h2> ¿Ya eres miembro? ¡Ingresa a tu cuenta!</h2>
+            <p>Usuario:<input type="email" name="email" placeholder="example@gmail.com"></p>
+            <p>Contraseña:<input type="password" name="password"></p>
+            <div>
+                <span><input type="checkbox">Recuerdame</span>
+                <a href="#" target=""><span>¿Olvidaste tu contraseña?</span></a>
+            </div>
+            <button type="submit">Ingresar</button>
+            <a href="#" target=""><span>¿Aún no eres miembro? Registrate.</span></a>
+
+        </section>
+    </main>
+
+    <div class="fixed">
+        <a href="#" target="_blank">
+            <img src="images/whatsapp.png" alt="whatsapp-icon" />
+        </a>
+    </div>
+    <footer>
+        <div>Síguenos en:
+            <a href="#" target="">
+                <i class='bx bxl-whatsapp'></i>
+            </a>
+            <a href="#" target="">
+                <i class='bx bxl-instagram-alt'></i>
+            </a>
+            <a href="#" target="">
+                <i class='bx bxl-facebook-circle'></i>
+            </a>
+        </div>
+        <span>Copyright 2024 - Plaza Autoservicios</span>
+    </footer>
+    
+    <!-- link js-->
+    <script src="main.js"></script>
+</body>
+
+</html>
